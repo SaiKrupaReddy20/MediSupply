@@ -21,7 +21,7 @@
         <br>
         <a href="register.php"><input name="r-btn" type="submit" id="signup-btn" value="Register"></a>
         <br>
-        <a href="adminlogin.php"><input name="so-btn" type="submit" id="so-btn" value="ShopOwner"></a>
+        <a href="shopownerlogin.php"><input name="so-btn" type="submit" id="so-btn" value="ShopOwner"></a>
 
         <?php 
             if(!isset($_GET['login'])){
