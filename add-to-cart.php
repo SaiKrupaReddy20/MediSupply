@@ -12,7 +12,7 @@
 	$result = mysqli_query($conn, $sql2);
 	$resultCheck = mysqli_num_rows($result);
 	if($resultCheck > 0){
-		$sql = "INSERT INTO cart VALUES('$shopid','$medicinename','$quantity','$price','$expiry');";
+		$sql = "INSERT INTO cart VALUES('$shopid','$medicinename','$quantity','$price','$expiry', 'false');";
 		mysqli_query($conn, $sql);
 		header("Location: sell-stock.php?modified=true");
 	}
